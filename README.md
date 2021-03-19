@@ -6,6 +6,8 @@
 - 💞️ I’m looking jjto collaborate on ...
 - 📫 How to reach me ...
 
+6767ztt
+
 kjj
 - how i work
 - -uzv
