@@ -10,6 +10,11 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
+                sh '''
+                export PATH=/sbin:/usr/sbin:/usr/bin:/usr/local/bin
+
+                newman run /Users/nehajain/Desktop/folder/runner.json -e/Users/nehajain/Desktop/folder/env.json
+                '''
             }
         }
         stage('Deploy') {
